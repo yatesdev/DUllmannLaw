@@ -2128,6 +2128,9 @@ button[type="submit"] .form-loading {
 .accordion-1 li {
   margin-bottom: 10px;
 }
+.accordion-1 li > ul > li {
+  margin-bottom: 0;
+}
 .accordion-1 li:last-child {
   margin-bottom: 0;
 }
