@@ -18,11 +18,7 @@
 }
 
 section {
-	padding: 50px 0;
-}
-
-.background-image-holder {
-	/* top: 380px; */
+	padding: 25px 0;
 }
 
 .page-title {
@@ -30,5 +26,13 @@ section {
 }
 
 .parallax:first-child .background-image-holder {
-	top: -380px !important;
+	top: -375px !important;
+}
+
+.car-icon {
+	line-height: 70px !important;
+}
+.appeal-icon {
+  padding-left: 8px !important;
+	line-height: 75px !important;
 }
