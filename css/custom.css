@@ -1,5 +1,38 @@
 /****** PLACE YOUR CUSTOM STYLES HERE ******/
 .accordion-1 .content li {
 	margin-left: 	20px;
-	list-style: square;
+	list-style: circle;
+}
+
+.portrait {
+	border-radius: 6px;
+}
+
+.map-section {
+	height: 40vh;
+	max-height: 480px;
+}
+
+.alt-color {
+	background-color: rgb(110, 193, 197);
+}
+
+section {
+	padding: 25px 0;
+}
+
+.page-title {
+	height: 405px;
+}
+
+.parallax:first-child .background-image-holder {
+	top: -375px !important;
+}
+
+.car-icon {
+	line-height: 70px !important;
+}
+.appeal-icon {
+  padding-left: 8px !important;
+	line-height: 75px !important;
 }
