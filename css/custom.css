@@ -22,11 +22,19 @@ section {
 }
 
 .page-title {
-	height: 405px;
+	height: 40vh;
 }
 
 .parallax:first-child .background-image-holder {
-	top: -375px !important;
+	top: -40vh !important;
+	transition: background-position-x 0.3s ease !important;
+}
+
+@media (max-width: 767px) {
+	.parallax > .background-image-holder, .parallax .slides li > .background-image-holder {
+		background-position-x: 30% !important;
+    	transition: all 0.3s ease !important;
+	}
 }
 
 .car-icon {
@@ -35,4 +43,36 @@ section {
 .appeal-icon {
   padding-left: 8px !important;
 	line-height: 75px !important;
+}
+
+footer {
+	font-size: 14px;
+}
+
+.flex {
+	display: flex;
+}
+
+iframe {
+	height: 100%;
+	width: 100%;
+}
+
+.mt-72 {
+	margin-top: 72px;
+}
+
+.mb-72 {
+	margin-bottom: 72px;
+}
+
+@media (min-width: 768px) {
+	.flex-md {
+		display: flex;
+	}
+}
+
+.col-no-padding {
+	padding-right: 0;
+	padding-left: 0;
 }
