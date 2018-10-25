@@ -36,3 +36,7 @@ section {
   padding-left: 8px !important;
 	line-height: 75px !important;
 }
+
+footer {
+	font-size: 14px;
+}
