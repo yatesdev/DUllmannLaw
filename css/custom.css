@@ -76,3 +76,51 @@ iframe {
 	padding-right: 0;
 	padding-left: 0;
 }
+
+.no-pad {
+	padding: 0;
+}
+
+.accordion .content > ul {
+  padding: 1.5rem;
+}
+
+
+@media(min-width: 1050px) {
+	.covid-alert {
+		top: 15%;
+		width: 18%;
+		left: 0;
+	}
+}
+.covid-alert {
+	position: absolute;
+	top: 15%;
+	left: 0;
+	margin-left: 1rem;
+	padding: 2rem;
+	background-color: #47b475;
+	z-index: 5;
+	width: 25%;
+	max-width: 300px;
+	color: white;
+}
+
+.covid-alert .closebtn {
+	margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.alert-covid {
+	background-color: #47b475;
+	color: white;
+	padding: 2rem;
+	text-align: center;
+	margin-bottom: 2rem;
+}
